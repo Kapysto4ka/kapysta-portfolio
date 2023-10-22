@@ -38,10 +38,10 @@ aboutLink.addEventListener('click', function (event) {
 });
 portfolioLink.addEventListener('click', function (event) {
     event.preventDefault();
-    var targetElement = document.querySelector('#p_text');
+    var targetElement = document.querySelector('#p_name');
     var targetPosition = targetElement.getBoundingClientRect().top;
     window.scrollTo({
-        top: targetPosition - 200,
+        top: targetPosition - 300,
         behavior: 'smooth'
     });
 });
